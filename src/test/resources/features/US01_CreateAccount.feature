@@ -47,7 +47,7 @@ Feature: Account Creation
       | John      | Smith    | Johnsmithgmail.com | Opensesame123! | 9999999999  |
       | John      | Smith    | Johnsmith@gmailcom | Opensesame123! | 9999999999  |
 
-  @negative
+  @negative@wip
   Scenario Outline: User enters password with less than 8 characters, without 1 special character,
   without 1 number, without 1 uppercase, without 1 lowercase and with a space
 
