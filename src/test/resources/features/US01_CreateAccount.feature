@@ -64,7 +64,7 @@ Feature: Account Creation
       | John      | Smith    | Johnsmith@gmailcom | OPENSESAME123!  | 9999999999  |
       | John      | Smith    | Johnsmith@gmailcom | Opensesame 123! | 9999999999  |
 
-  @negative@demo
+  @negative
   Scenario Outline: User provides mismatched passwords
     Given user is on registration page with URL "https://www.harborfreight.com/customer/account/register"
     When the user enters "<firstName>", "<lastName>", "<email>", "<password>", "<passwordConf>", "<phoneNumber>"
